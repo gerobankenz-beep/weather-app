@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(27, 27, 140);
+}
+h2{
+    font-size: 3.5rem;
+    margin: 10px 10px;
+    color: orangered;
+    font-weight: bold;
+}
+.container{
+    box-shadow: 2px 4px 8px #212121;
+    width: 600px;
+    height: 100vh;
+    padding-top: 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8d6;
+
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin: 25px 5px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #2e6f40;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    user-select: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(180deg, #5e8cba, #e5e5be);
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px #212121;
+    max-height: 600px;
+}
+.tempDisplay, .humDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    margin-top: 10px;
+}
+.emojiDisplay{
+    font-size: 6.5rem;
+    padding-bottom: 10px;
+}
+.descDisplay{
+    color: rgb(27, 27, 140);
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+.errorDisplay{
+    padding: 40px;
+}
