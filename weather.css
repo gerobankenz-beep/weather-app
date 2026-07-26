@@ -24,7 +24,8 @@ h2{
 }
 .container{
     box-shadow: 2px 4px 8px #212121;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 100vh;
     padding-top: 4px;
     border-radius: 10px;
